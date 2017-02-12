@@ -1,0 +1,32 @@
+PHP Project by PELMOINE Rémi and GIL Clément
+============================================
+
+Routes :
+	Toutes les routes ont été créés
+Request & Response :
+	Nous avons bien créé ces deux objets et les avons utilisé.
+Composer:
+	Nous avons installer composer, et l'avons utilisé pour inclure toutes les dépendances
+	ainsi que pour nous gérer l'autoloader.
+DataBase using DataMapper & DataFinder:
+	Nous utilisons une base de données MySQL, nous utilisons la classe DataMapper pour ajouter et supprimer les données
+	(persist and remove), nous utilison la classe DataFinder pour récupérer les données de la Base.
+Docker:
+	Nous gérons notre base MySQL à parti d'un conteneur Docker
+Authentification:
+	Nous avons réaliser une page d'inscription "/register",
+	Nous avons réaliser la connection pour un utilisateur "/login",
+	Celui peut également se déconnecter "/logout"
+Firewall:
+	Nous avons réaliser un firewall qui force les utilisateurs à se logger s'il veulent réaliser
+	certaines action.
+	De plus, ce firewall définit les pages accessibles sans être connéctés.
+Validation:
+	La validation des formulaires d'inscription et de connexion a été réalisée.
+Anonyme:
+	Les utilisateurs anonyms ne peuvent pas poster des status en utilisant un username déjà existant.
+Tests:
+	Mock: Nous utilisons la bibliothèque Mockery pour simuler une connection
+	Statuses: Nous avons réaliser tous les tests sur les classes StatusesFinder et StatusesMapper.
+Design (Bootstrap):
+	Nous avons légèrement utilisé bootstrap pour rendre l'interface plus agréable.
